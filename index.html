@@ -13,19 +13,14 @@
 <body>
     <div id="wrap">
         <div id="top_bnr_slide_wrap"><!-- 뷰포트 -->
-            <div class="top_bnr_slide_container"><!-- 배너전체묶음 -->
-                <div class="top_bnr top_bnr1"><!-- 개별 슬라이드 -->
-                    <a href="#">신규회원 가입 시 10,000포인트 증정</a>
-                    <a href="#" class="close_btn"><img src="./images/close.png" alt=""></a>
-                </div>
-                <div class="top_bnr top_bnr2"><!-- 개별 슬라이드 -->
-                    <a href="#">아식스코리아를 사칭한 온라인 판매사이트 주의 안내</a>
-                    <a href="#" class="close_btn"><img src="./images/close.png" alt=""></a>
-                </div>
+            <div class="top_bnr_slide_container"><!-- 배너 내용 전체묶음 -->
+                <a href="#">신규회원 가입 시 10,000포인트 증정</a><!-- 개별 배너 내용 -->
+                <a href="#">아식스코리아를 사칭한 온라인 판매사이트 주의 안내</a>
             </div>
+            <a href="#" class="close_btn"><img src="./images/close.png" alt=""></a>
         </div><!-- e:top_banner -->
         <div id="fab_chatbot_pageup">
-            <a href="#" class="Chatbot_btn"><img src="./images/chat.png" alt="챗봇 문의하기"></a>
+            <a href="#" class="chatbot_btn"><img src="./images/chat.png" alt="챗봇 문의하기"></a>
             <a href="#wrap" class="pageup_btn"><img src="./images/up.png" alt="맨 위로"></a>
         </div><!-- e:FAB -->
         <header>
@@ -33,76 +28,78 @@
                 <h1><a href="./index.html"><img src="./images/logo.png" alt="asics"></a></h1>
                 <nav>
                     <ul id="gnb">
-                        <li class="gnb_depth1">
+                        <li>
                             <a href="#">Men</a>
-                            <ul class="gnb_depth2">
-                                <li><a href="#">Featured</a>
-                                    <ul class="gnb_depth3">
-                                        <li><a href="#">신상품</a></li>
-                                        <li><a href="#">베스트셀러</a></li>
-                                        <li><a href="#">발너비(2E, 4E)</a></li>
-                                        <li><a href="#">젤 카야노 32</a></li>
-                                        <li><a href="#">리브레 CF</a></li>
-                                        <li><a href="#">키즈</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">신발</a>
-                                    <ul class="gnb_depth3">
-                                        <li><a href="#">러닝화</a></li>
-                                        <li><a href="#">테니스화</a></li>
-                                        <li><a href="#">인도어/배구화</a></li>
-                                        <li><a href="#">트레일러닝화</a></li>
-                                        <li><a href="#">워크화</a></li>
-                                        <li><a href="#">트랙&필드화</a></li>
-                                        <li><a href="#">농구화</a></li>
-                                        <li><a href="#">축구화</a></li>
-                                        <li><a href="#">스포츠스타일화</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">의류</a>
-                                    <ul class="gnb_depth3">
-                                        <li><a href="#">자켓/점퍼/베스트</a></li>
-                                        <li><a href="#">스웨터/후디 티셔츠</a></li>
-                                        <li><a href="#">롱 슬리브</a></li>
-                                        <li><a href="#">숏 슬리브</a></li>
-                                        <li><a href="#">슬리브리스</a></li>
-                                        <li><a href="#">팬츠/타이츠</a></li>
-                                        <li><a href="#">쇼츠</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">용품</a>
-                                    <ul class="gnb_depth3">
-                                        <li><a href="#">가방</a></li>
-                                        <li><a href="#">모자</a></li>
-                                        <li><a href="#">양말</a></li>
-                                        <li><a href="#">기타 악세서리</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">스포츠</a>
-                                    <ul class="gnb_depth3">
-                                        <li><a href="#">러닝</a></li>
-                                        <li><a href="#">테니스</a></li>
-                                        <li><a href="#">트레일러닝</a></li>
-                                        <li><a href="#">트레이닝</a></li>
-                                        <li><a href="#">트랙/필드</a></li>
-                                        <li><a href="#">스포츠스타일</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <a href="#" class="gnb_bnr men">
-                                <img src="./images/gnb_banner1.jpg" alt="">
-                                <p>GEL-NOMBUS<span>TM</span>28</p>
-                            </a>
+                            <div class="gnb_wrap">
+                                <ul class="gnb_depth2">
+                                    <li><a href="#">Featured</a>
+                                        <ul class="gnb_depth3">
+                                            <li><a href="#">신상품</a></li>
+                                            <li><a href="#">베스트셀러</a></li>
+                                            <li><a href="#">발너비(2E, 4E)</a></li>
+                                            <li><a href="#">젤 카야노 32</a></li>
+                                            <li><a href="#">리브레 CF</a></li>
+                                            <li><a href="#">키즈</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">신발</a>
+                                        <ul class="gnb_depth3">
+                                            <li><a href="#">러닝화</a></li>
+                                            <li><a href="#">테니스화</a></li>
+                                            <li><a href="#">인도어/배구화</a></li>
+                                            <li><a href="#">트레일러닝화</a></li>
+                                            <li><a href="#">워크화</a></li>
+                                            <li><a href="#">트랙&필드화</a></li>
+                                            <li><a href="#">농구화</a></li>
+                                            <li><a href="#">축구화</a></li>
+                                            <li><a href="#">스포츠스타일화</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">의류</a>
+                                        <ul class="gnb_depth3">
+                                            <li><a href="#">자켓/점퍼/베스트</a></li>
+                                            <li><a href="#">스웨터/후디 티셔츠</a></li>
+                                            <li><a href="#">롱 슬리브</a></li>
+                                            <li><a href="#">숏 슬리브</a></li>
+                                            <li><a href="#">슬리브리스</a></li>
+                                            <li><a href="#">팬츠/타이츠</a></li>
+                                            <li><a href="#">쇼츠</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">용품</a>
+                                        <ul class="gnb_depth3">
+                                            <li><a href="#">가방</a></li>
+                                            <li><a href="#">모자</a></li>
+                                            <li><a href="#">양말</a></li>
+                                            <li><a href="#">기타 악세서리</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">스포츠</a>
+                                        <ul class="gnb_depth3">
+                                            <li><a href="#">러닝</a></li>
+                                            <li><a href="#">테니스</a></li>
+                                            <li><a href="#">트레일러닝</a></li>
+                                            <li><a href="#">트레이닝</a></li>
+                                            <li><a href="#">트랙/필드</a></li>
+                                            <li><a href="#">스포츠스타일</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <a href="#" class="gnb_bnr men">
+                                    <img src="./images/gel_katano_gnb_bnr.jpg" alt="">
+                                    <p>GEL-NOMBUS<span>TM</span>28</p>
+                                </a>
+                            </div>
                         </li>
-                        <li class="gnb_depth1"><a href="#">Women</a></li>
-                        <li class="gnb_depth1"><a href="#">Sports</a></li>
-                        <li class="gnb_depth1"><a href="#">Sportstyle</a></li>
-                        <li class="gnb_depth1"><a href="#">#RUN</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Sportstyle</a></li>
+                        <li><a href="#">#RUN</a></li>
                     </ul>
                 </nav>
             </div><!-- e:h_left -->
             <div class="h_right">
-                <form action="#" method="get" name="serch_bar" id="serch_bar">
+                <form action="#" method="get" id="serch_bar">
                     <input type="text" placeholder="지금 계절에 신기 좋은 인도어화" name="search_txt" id="search_txt">
                     <button type="button" id="search_btn"><img src="./images/search.png" alt="검색"></button>
                 </form>
@@ -115,7 +112,7 @@
         </header><!-- e:header -->
         <main>
             <div class="hero_bnr">
-                <a href="#" class="hero_bnr_img"><img src="./images/hero_banner.jpg" alt=""></a>
+                <a href="#" class="hero_bnr_img"><img src="./images/gel_nyc_hero_bnr.jpg" alt=""></a>
                 <div class="hero_bnr_txt">
                     <h1>GEL-NYC</h1>
                     <p>2000년대 헤리티지 러닝화를 재해석한 어반 라이프스타일</p>
@@ -124,18 +121,18 @@
             </div>
             <div id="special_product">
                 <div class="special_product_slide_wrap"><!-- 뷰포트 -->
-                    <div class="special_product_slide_container"><!-- 슬라이드 전체묶음 -->
-                        <div class="special_product_slide"><!-- 개별 슬라이드 -->
-                            <a href="#"><img src="./images/con_1.jpg" alt=""></a>
-                            <div class="special_product_slide_txt">
+                    <div class="slide_container"><!-- 슬라이드 전체묶음 -->
+                        <div class="slide"><!-- 개별 슬라이드 -->
+                            <a href="#"><img src="./images/gel_cumulus16_bnr.jpg" alt=""></a>
+                            <div class="slide_txt">
                                 <h1>GEL-CUMULUS<span>TM</span>16</h1>
                                 <p>아이코닉한 디자인의 젤  SD 라이트</p>
                                 <a href="#" class="buy_btn">구매하기</a>
                             </div>
                         </div>
-                        <div class="special_product_slide"><!-- 개별 슬라이드 -->
-                            <a href="#"><img src="./images/con_1.jpg" alt=""></a>
-                            <div class="special_product_slide_txt">
+                        <div class="slide"><!-- 개별 슬라이드 -->
+                            <a href="#"><img src="./images/gel_cumulus16_bnr.jpg" alt=""></a>
+                            <div class="slide_txt">
                                 <h1>GEL-CUMULUS<span>TM</span>16</h1>
                                 <p>아이코닉한 디자인의 젤  SD 라이트</p>
                                 <a href="#" class="buy_btn">구매하기</a>
@@ -144,15 +141,8 @@
                     </div>
                     <a href="#" class="prev"><img src="./images/prev_w.svg" alt="이전"></a>
                     <a href="#" class="next"><img src="./images/prev_w.svg" alt="다음"></a>
-                    <div class="page"><!-- css로 빼기? -->
-                        <div class="page1">
-                            <span></span><!-- 스크롤바 현재 위치 -->
-                            <span></span><!-- 스크롤바 전체 길이 -->
-                        </div>
-                        <div class="page2">
-                            <span></span><!-- 스크롤바 현재 위치 -->
-                            <span></span><!-- 스크롤바 전체 길이 -->
-                        </div>
+                    <div class="progress_bar"><!-- 상태바 전체 길이 -->
+                        <span></span><!-- 상태바 현재 위치 -->
                     </div>
                 </div>
             </div>
@@ -160,60 +150,53 @@
                 <h1>NEW ARRIVALS</h1>
                 <div class="new_product_wrap"><!-- 내용 부모 -->
                     <div class="new_product_slide_wrap"><!-- 슬라이드 뷰포트 -->
-                        <div class="new_product_slide_container"><!-- 슬라이드 전체 묶음 -->
-                            <a href="#" class="_new_product_silde"><img src="./images/product_left.jpg" alt=""></a><!-- 개별 슬라이드 -->
-                            <a href="#" class="_new_product_silde"><img src="./images/product_left.jpg" alt=""></a><!-- 개별 슬라이드 -->
+                        <div class="slide_container"><!-- 슬라이드 전체 묶음 -->
+                            <a href="#" class="silde"><img src="./images/gel_nimbus28.jpg" alt=""></a><!-- 개별 슬라이드 -->
+                            <a href="#" class="silde"><img src="./images/gel_nimbus28.jpg" alt=""></a><!-- 개별 슬라이드 -->
                         </div>
                         <a href="#" class="prev"><img src="./images/prev_w.svg" alt="이전"></a>
                         <a href="#" class="next"><img src="./images/prev_w.svg" alt="다음"></a>
-                        <div class="page">
-                            <div class="page1">
-                                <span></span><!-- 스크롤바 현재 위치 -->
-                                <span></span><!-- 스크롤바 전체 길이 -->
-                            </div>
-                            <div class="page2">
-                                <span></span><!-- 스크롤바 현재 위치 -->
-                                <span></span><!-- 스크롤바 전체 길이 -->
-                            </div>
+                        <div class="progress_bar"><!-- 상태바 전체 길이 -->
+                            <span></span><!-- 상태바 현재 위치 -->
                         </div>
                     </div>
                     <ul id="new_product_items"><!-- 2*2 배열 고정 리스트 -->
                         <li class="new_item">
                             <a href="#">
-                                <img src="./images/sky_1.png" alt="">
+                                <img src="./images/gel_nimbus28_white.png" alt="">
                                 <h2>스카이핸드 OG</h2>
-                                <p><span>129,000원</span></p>
+                                <p class="price">119,000원</p>
                                 <p>NEW</p>
                             </a>
                         </li>
                         <li class="new_item">
                             <a href="#">
-                                <img src="./images/sky_1.png" alt="">
+                                <img src="./images/gel_nimbus28_white.png" alt="">
                                 <h2>스카이핸드 OG</h2>
-                                <p><span>129,000원</span></p>
+                                <p class="price">119,000원</p>
                                 <p>NEW</p>
                             </a>
                         </li>
                         <li class="new_item">
                             <a href="#">
-                                <img src="./images/sky_1.png" alt="">
+                                <img src="./images/gel_nimbus28_pink.png" alt="">
                                 <h2>스카이핸드 OG</h2>
-                                <p><span>129,000원</span></p>
+                                <p class="price">129,000원</p>
                                 <p>NEW</p>
                             </a>
                         </li>
                         <li class="new_item">
                             <a href="#">
-                                <img src="./images/sky_1.png" alt="">
+                                <img src="./images/gel_nimbus28_pink.png" alt="">
                                 <h2>스카이핸드 OG</h2>
-                                <p><span>129,000원</span></p>
+                                <p class="price">129,000원</p>
                                 <p>NEW</p>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="middle_bnr" style="background-image: url(./images/middle_banner.jpg);"><!-- CSS에서 배경이미지 삽입 -->
+            <div class="add_bnr"><!-- bg -->
                 <a href="#" class="middle_bnr_txt">
                     <h1>ASICS SPORTSTYLE</h1>
                     <p>Inspired by sport, defined by style</p>
@@ -223,24 +206,24 @@
             <div id="recommend_product"><!-- ( 배너 | 제품목록 제품목록 )으로 구성된 레이아웃 -->
                 <h1>GEL-KAYANO<span>TM</span>32</h1>
                 <div class="recommend_product_wrap">
-                    <div class="recommend_product_bnr" style="background-image: url(./images/ad1.jpg);"><!--  CSS에서 배경이미지 삽입 -->
+                    <div class="recommend_product_bnr"><!-- bg -->
                         <h2>GEL-KAYANO<span>TM</span>32</h2>
                         <p>Feel comfort<br>Find calm</p>
                     </div>
                     <ul class="recommend_product_container">
                         <li class="recomen_item">
                             <a href="#">
-                                <img src="./images/gel_katano_1.png" alt="">
+                                <img src="./images/gel_katano32_white.png" alt="">
                                 <h2>젤카야노32우먼(D)</h2>
-                                <p><span>199,900원</span></p>
+                                <p class="price">199,900원</p>
                                 <p>NEW</p>
                             </a>
                         </li>
-                        <li class="recomen_item"><!-- 개별 슬라이드 -->
+                        <li class="recomen_item">
                             <a href="#">
-                                <img src="./images/gel_katano_2.png" alt="">
+                                <img src="./images/gel_katano32_black.png" alt="">
                                 <h2>젤 카야노32</h2>
-                                <p><span>199,900원</span></p>
+                                <p class="price">199,900원</p>
                                 <p>NEW</p>
                             </a>
                         </li>
@@ -259,30 +242,30 @@
             </div>
             <div id="sports_more">
                 <h1>SHOP BY SPORTS</h1>
-                <div class="sports_more_slied_wrap"><!-- 내용 부모 -->
-                    <div class="sports_more_slied_container"><!-- 뷰포트 -->
-                        <ul class="sports_more_slieds"><!-- 슬라이드 전체 묶음 -->
-                            <li class="sports_slied slied1"><!-- 개별슬라이드 -->
+                <div class="sports_more_slide_wrap"><!-- 내용 부모 -->
+                    <div class="slied_container"><!-- 뷰포트 -->
+                        <ul class="slieds"><!-- 슬라이드 전체 묶음 -->
+                            <li class="silde"><!-- 개별슬라이드 -->
                                 <a href="#">
-                                    <img src="./images/sports_1.jpg" alt="">
+                                    <img src="./images/soccer.jpg" alt="">
                                     <p>Soccer</p>
                                 </a>
                             </li>
-                            <li class="silde_sport slied2"><!-- 개별슬라이드 -->
+                            <li class="silde"><!-- 개별슬라이드 -->
                                 <a href="#">
-                                    <img src="./images/sports_2.jpg" alt="">
+                                    <img src="./images/basketball.jpg" alt="">
                                     <p>Basketball</p>
                                 </a>
                             </li>
-                            <li class="silde_sport slied3"><!-- 개별슬라이드 -->
+                            <li class="silde"><!-- 개별슬라이드 -->
                                 <a href="#">
-                                    <img src="./images/sports_1.jpg" alt="">
+                                    <img src="./images/soccer.jpg" alt="">
                                     <p>Soccer</p>
                                 </a>
                             </li>
-                            <li class="silde_sport slied4"><!-- 개별슬라이드 -->
+                            <li class="silde"><!-- 개별슬라이드 -->
                                 <a href="#">
-                                    <img src="./images/sports_2.jpg" alt="">
+                                    <img src="./images/basketball.jpg" alt="">
                                     <p>Basketball</p>
                                 </a>
                             </li>
@@ -290,23 +273,16 @@
                     </div>
                     <a href="#" class="prev"><img src="./images/prev_w.svg" alt="이전"></a>
                     <a href="#" class="next"><img src="./images/prev_w.svg" alt="다음"></a>
-                    <div class="page">
-                        <div class="page1">
-                            <span></span><!-- 스크롤바 현재 위치 -->
-                            <span></span><!-- 스크롤바 전체 길이 -->
-                        </div>
-                        <div class="page2">
-                            <span></span><!-- 스크롤바 현재 위치 -->
-                            <span></span><!-- 스크롤바 전체 길이 -->
-                        </div>
+                    <div class="progress_bar"><!-- 상태바 전체 길이 -->
+                        <span></span><!-- 상태바 현재 위치 -->
                     </div>
                 </div>
             </div>
             <div id="bestseller_product"><!-- 내용 부모 -->
                 <div class="bestseller_product_slide_wrap"><!-- 뷰포트 -->
-                    <div class="bestseller_product_slide_container"><!-- 슬라이드 전체 묶음 -->
-                        <div class="bestseller_slide"><!-- 개별 슬라이드 -->
-                            <div class="product_bnr" style="background-image: url(./images/img.jpg);"><!-- css에서 배경이미지로 삽입 -->
+                    <div class="slide_container"><!-- 슬라이드 전체 묶음 -->
+                        <div class="slide"><!-- 개별 슬라이드 -->
+                            <div class="product_bnr"><!-- bg -->
                                 <p>More <span>balance</span> to move body and mind</p>
                             </div>
                             <div class="product_txt">
@@ -315,8 +291,8 @@
                                 <a href="#" class="buy_btn">구매하기</a>
                             </div>
                         </div>
-                        <div class="bestseller_slide"><!-- 개별 슬라이드 -->
-                            <div class="product_bnr" style="background-image: url(./images/img.jpg);"><!-- css에서 배경이미지로 삽입 -->
+                        <div class="slide"><!-- 개별 슬라이드 -->
+                            <div class="product_bnr"><!-- bg -->
                                 <p>More <span>balance</span> to move body and mind</p>
                             </div>
                             <div class="product_txt">
@@ -329,47 +305,33 @@
                 </div>
                 <a href="#" class="prev"><img src="./images/prev_w.svg" alt="이전"></a>
                 <a href="#" class="next"><img src="./images/prev_w.svg" alt="다음"></a>
-                <div class="page">
-                    <div class="page1">
-                        <span></span><!-- 스크롤바 현재 위치 -->
-                        <span></span><!-- 스크롤바 전체 길이 -->
-                    </div>
-                    <div class="page2">
-                        <span></span><!-- 스크롤바 현재 위치 -->
-                        <span></span><!-- 스크롤바 전체 길이 -->
-                    </div>
+                <div class="progress_bar"><!-- 상태바 전체 길이 -->
+                    <span></span><!-- 상태바 현재 위치 -->
                 </div>
             </div>
             <div id="news_event">
                 <h1>NEWS&EVENT</h1>
                 <div class="news_event_wrap"><!-- 내용부모 -->
                     <div class="news_event_silde_wrap"><!-- 뷰포트 -->
-                        <ul class="news_event_silde_container"><!-- 슬라이드 전체 묶음 -->
-                            <li class="news_event_slide" style="background-image: url(./images/news1.jpg);"><!-- 개별 슬라이드, css 배경이미지 추가 -->
+                        <ul class="silde_container"><!-- 슬라이드 전체 묶음 -->
+                            <li class="slide"><!-- 개별 슬라이드, bg -->
                                 <a href="#"><p>#RUN:<br>FIND YOUR SHOES</p></a>
                             </li>
-                            <li class="news_event_slide" style="background-image: url(./images/news1.jpg);"><!-- 개별 슬라이드, css 배경이미지 추가 -->
+                            <li class="slide"><!-- 개별 슬라이드, bg -->
+                                <a href="#"><p>LAUNCH<br>CALENDER</p></a>
+                            </li>
+                            <li class="slide"><!-- 개별 슬라이드, bg -->
                                 <a href="#"><p>#RUN:<br>FIND YOUR SHOES</p></a>
                             </li>
-                            <li class="news_event_slide" style="background-image: url(./images/news1.jpg);"><!-- 개별 슬라이드, css 배경이미지 추가 -->
-                                <a href="#"><p>#RUN:<br>FIND YOUR SHOES</p></a>
-                            </li>
-                            <li class="news_event_slide" style="background-image: url(./images/news1.jpg);"><!-- 개별 슬라이드, css 배경이미지 추가 -->
-                                <a href="#"><p>#RUN:<br>FIND YOUR SHOES</p></a>
+                            <li class="slide"><!-- 개별 슬라이드, bg -->
+                                <a href="#"><p>LAUNCH<br>CALENDER</p></a>
                             </li>
                         </ul>
                     </div>
                     <a href="#" class="prev"><img src="./images/prev_w.svg" alt="이전"></a>
                     <a href="#" class="next"><img src="./images/prev_w.svg" alt="다음"></a>
-                    <div class="page">
-                        <div class="page1">
-                            <span></span><!-- 스크롤바 현재 위치 -->
-                            <span></span><!-- 스크롤바 전체 길이 -->
-                        </div>
-                        <div class="page2">
-                            <span></span><!-- 스크롤바 현재 위치 -->
-                            <span></span><!-- 스크롤바 전체 길이 -->
-                        </div>
+                    <div class="progress_bar"><!-- 상태바 전체 길이 -->
+                        <span></span><!-- 상태바 현재 위치 -->
                     </div>
                 </div>
             </div>
@@ -377,7 +339,7 @@
         <footer>
             <div id="service_info">
                 <h2><a href="#"><img src="./images/logo_w.svg" alt="asics"></a></h2>
-                <p><em>고객상담실 080-929-3535 | 080-930-3535</em></p>
+                <p class="customer_service_number">고객상담실 080-929-3535 | 080-930-3535</p>
                 <p>
                     운영시간 : 월-금 <em>AM 10:00-17:00</em> / 점심시간 : <em>PM 12:00 - 13:00</em><br>
                     *공휴일은 고객상담실 휴무입니다.
