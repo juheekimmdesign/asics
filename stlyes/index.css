@@ -1,8 +1,18 @@
 body {}
 #wrap {}
-#wrap #top_bnr_slide_wrap {}
-#wrap #top_bnr_slide_wrap .top_bnr_slide_container {}
-#wrap #top_bnr_slide_wrap .top_bnr_slide_container a {}
+#wrap #top_bnr_slide_wrap {
+    background-color: yellow; width: 100%; margin: 0 auto;
+    overflow: hidden;
+}
+#wrap #top_bnr_slide_wrap .top_bnr_slide_container {
+    background-color: bisque;
+}
+#wrap #top_bnr_slide_wrap .top_bnr_slide_container a {
+    background-color: aqua;
+    display: block;
+    float: left; width: 100%; height: 52px;
+    text-align: center;
+}
 #wrap #top_bnr_slide_wrap .close {}
 #wrap #top_bnr_slide_wrap .close img {}
 #wrap #fab_chatbot_pageup {}
