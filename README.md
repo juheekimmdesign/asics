@@ -7,11 +7,11 @@
 ## 26/02/06
 * footer까지 html 완료
 ## 26/02/11
-* 2월 9일에 1차 선생님 피드백 받고, `index.html` 수정중
+* 2월 9일에 선생님 피드백(1) 받고, `index.html` 수정중
 * 슬라이드, id, class 수정
 ## 26/02/12
-* 2월 11일에 2차 선생님 피드백 받고, contents6 까지 이름, 슬라이드 구조 수정
-### 2차 피드백 내용
+* 2월 11일에 선생님 피드백(2) 받고, contents6 까지 이름, 슬라이드 구조 수정
+### feedback(2)
 * `top_bnr`에서  `slide`, `a(닫기 버튼)`에 이름태그 추가
 * `FAB(a)`에 이름태그 추가
 * `header` 시멘틱 태그가 있기 때문에, 주석에는 `h_left`, `h_right`로 줄여써도 됨.
@@ -34,8 +34,8 @@
 
 ## 26/02/13 오전
 * footer까지 이름, 슬라이드 구조 수정
-* 2월 13일 오전 3차 선생님 피드백 받고 `index.html` 수정
-### 3차 피드백 내용
+* 2월 13일 오전 선생님 피드백(3) 받고 `index.html` 수정
+### feedback(3)
 * top_bnr에서 `a 닫기`는 `slide_container`랑 형제로 빼기
 * `class="Chatbot"`으로 대문자 적혀있는 것 수정
 * gnb의 li에 depth1 이름 준 것 빼기
@@ -50,8 +50,9 @@
 * li에 slide 오타 그만~
 * `p - em`으로 묶인 것 중, 강조 내용이 없는 경우, em 말고 P에 class를 주기
 ## 26/02/13 오후
-* 4번째 피드백 받고 `index. html` 남은 수정부분 적용하고, `index.css - header`작성 시작
-### 4차 피드백 내용
+* 선생님 피드백(4) 받고 `index. html` 남은 수정부분 적용하고, `index.css - header`작성 시작
+* 피드백(5), css 끝까지 작성하고 header까지만 스타일적용 해보기
+### feedback(4)
 * 상태바 `span`에도 이름을 줘야함.
     * 모든 태그에 class, id 가능, span도 이름태그 가능
     * `div class="bar", span class="progrees"`
@@ -60,3 +61,8 @@
 * new 안에 span 태그 추가
     * p (class="badge") 안에서 span(clsss=new) span(class=members) 넣어서 추가 뱃지 생길 것 고려
 * add_bnr에 바로가기에 이름 추가
+### feedback(5)
+* 개발자도구(f12)로 css 선택자 잘 적혔는지 확인하기
+* h_left, h_right h1ml과 css 선택자 통일
+* search 오타
+* progress bar 수정 빠진 것 확인
