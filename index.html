@@ -17,11 +17,11 @@
                 <a href="#">신규회원 가입 시 10,000포인트 증정</a><!-- 개별 배너 내용 -->
                 <a href="#">아식스코리아를 사칭한 온라인 판매사이트 주의 안내</a>
             </div>
-            <a href="#" class="close_btn"><img src="./images/close.png" alt=""></a>
+            <a href="#" class="close"><img src="./images/close.png" alt=""></a>
         </div><!-- e:top_banner -->
         <div id="fab_chatbot_pageup">
-            <a href="#" class="chatbot_btn"><img src="./images/chat.png" alt="챗봇 문의하기"></a>
-            <a href="#wrap" class="pageup_btn"><img src="./images/up.png" alt="맨 위로"></a>
+            <a href="#" class="chatbot"><img src="./images/chat.png" alt="챗봇 문의하기"></a>
+            <a href="#wrap" class="pageup"><img src="./images/up.png" alt="맨 위로"></a>
         </div><!-- e:FAB -->
         <header>
             <div class="h_left">
@@ -85,7 +85,7 @@
                                         </ul>
                                     </li>
                                 </ul>
-                                <a href="#" class="gnb_bnr men">
+                                <a href="#" class="gnb_bnr_right">
                                     <img src="./images/gel_katano_gnb_bnr.jpg" alt="">
                                     <p>GEL-NOMBUS<span>TM</span>28</p>
                                 </a>
@@ -122,7 +122,7 @@
             <div id="special_product">
                 <div class="special_product_slide_wrap"><!-- 뷰포트 -->
                     <div class="slide_container"><!-- 슬라이드 전체묶음 -->
-                        <div class="slide"><!-- 개별 슬라이드 -->
+                        <div class="slide slide1"><!-- 개별 슬라이드 -->
                             <a href="#"><img src="./images/gel_cumulus16_bnr.jpg" alt=""></a>
                             <div class="slide_txt">
                                 <h1>GEL-CUMULUS<span>TM</span>16</h1>
@@ -130,7 +130,7 @@
                                 <a href="#" class="buy_btn">구매하기</a>
                             </div>
                         </div>
-                        <div class="slide"><!-- 개별 슬라이드 -->
+                        <div class="slide slide2"><!-- 개별 슬라이드 -->
                             <a href="#"><img src="./images/gel_cumulus16_bnr.jpg" alt=""></a>
                             <div class="slide_txt">
                                 <h1>GEL-CUMULUS<span>TM</span>16</h1>
@@ -141,8 +141,8 @@
                     </div>
                     <a href="#" class="prev"><img src="./images/prev_w.svg" alt="이전"></a>
                     <a href="#" class="next"><img src="./images/prev_w.svg" alt="다음"></a>
-                    <div class="progress_bar"><!-- 상태바 전체 길이 -->
-                        <span></span><!-- 상태바 현재 위치 -->
+                    <div class="bar"><!-- 상태바 전체 길이 -->
+                        <span class="progress"></span><!-- 상태바 현재 위치 -->
                     </div>
                 </div>
             </div>
@@ -151,13 +151,13 @@
                 <div class="new_product_wrap"><!-- 내용 부모 -->
                     <div class="new_product_slide_wrap"><!-- 슬라이드 뷰포트 -->
                         <div class="slide_container"><!-- 슬라이드 전체 묶음 -->
-                            <a href="#" class="silde"><img src="./images/gel_nimbus28.jpg" alt=""></a><!-- 개별 슬라이드 -->
-                            <a href="#" class="silde"><img src="./images/gel_nimbus28.jpg" alt=""></a><!-- 개별 슬라이드 -->
+                            <a href="#" class="silde silde1"><img src="./images/gel_nimbus28.jpg" alt=""></a><!-- 개별 슬라이드 -->
+                            <a href="#" class="silde silde2"><img src="./images/gel_nimbus28.jpg" alt=""></a><!-- 개별 슬라이드 -->
                         </div>
                         <a href="#" class="prev"><img src="./images/prev_w.svg" alt="이전"></a>
                         <a href="#" class="next"><img src="./images/prev_w.svg" alt="다음"></a>
-                        <div class="progress_bar"><!-- 상태바 전체 길이 -->
-                            <span></span><!-- 상태바 현재 위치 -->
+                        <div class="bar"><!-- 상태바 전체 길이 -->
+                            <span class="progress"></span><!-- 상태바 현재 위치 -->
                         </div>
                     </div>
                     <ul id="new_product_items"><!-- 2*2 배열 고정 리스트 -->
@@ -166,7 +166,7 @@
                                 <img src="./images/gel_nimbus28_white.png" alt="">
                                 <h2>스카이핸드 OG</h2>
                                 <p class="price">119,000원</p>
-                                <p>NEW</p>
+                                <p class="badge"><span class="new">NEW</span></p>
                             </a>
                         </li>
                         <li class="new_item">
@@ -174,7 +174,7 @@
                                 <img src="./images/gel_nimbus28_white.png" alt="">
                                 <h2>스카이핸드 OG</h2>
                                 <p class="price">119,000원</p>
-                                <p>NEW</p>
+                                <p class="badge"><span class="new">NEW</span></p>
                             </a>
                         </li>
                         <li class="new_item">
@@ -182,7 +182,7 @@
                                 <img src="./images/gel_nimbus28_pink.png" alt="">
                                 <h2>스카이핸드 OG</h2>
                                 <p class="price">129,000원</p>
-                                <p>NEW</p>
+                                <p class="badge"><span class="new">NEW</span></p>
                             </a>
                         </li>
                         <li class="new_item">
@@ -190,17 +190,17 @@
                                 <img src="./images/gel_nimbus28_pink.png" alt="">
                                 <h2>스카이핸드 OG</h2>
                                 <p class="price">129,000원</p>
-                                <p>NEW</p>
+                                <p class="badge"><span class="new">NEW</span></p>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="add_bnr"><!-- bg -->
-                <a href="#" class="middle_bnr_txt">
+                <a href="#" class="add_bnr_txt">
                     <h1>ASICS SPORTSTYLE</h1>
                     <p>Inspired by sport, defined by style</p>
-                    <p>바로가기</p>
+                    <p class="shortcut">바로가기</p>
                 </a>
             </div>
             <div id="recommend_product"><!-- ( 배너 | 제품목록 제품목록 )으로 구성된 레이아웃 -->
@@ -216,7 +216,7 @@
                                 <img src="./images/gel_katano32_white.png" alt="">
                                 <h2>젤카야노32우먼(D)</h2>
                                 <p class="price">199,900원</p>
-                                <p>NEW</p>
+                                <p class="badge"><span class="new">NEW</span></p>
                             </a>
                         </li>
                         <li class="recomen_item">
@@ -224,7 +224,7 @@
                                 <img src="./images/gel_katano32_black.png" alt="">
                                 <h2>젤 카야노32</h2>
                                 <p class="price">199,900원</p>
-                                <p>NEW</p>
+                                <p class="badge"><span class="new">NEW</span></p>
                             </a>
                         </li>
                     </ul>
@@ -244,26 +244,26 @@
                 <h1>SHOP BY SPORTS</h1>
                 <div class="sports_more_slide_wrap"><!-- 내용 부모 -->
                     <div class="slied_container"><!-- 뷰포트 -->
-                        <ul class="slieds"><!-- 슬라이드 전체 묶음 -->
-                            <li class="silde"><!-- 개별슬라이드 -->
+                        <ul class="slides"><!-- 슬라이드 전체 묶음 -->
+                            <li class="silde silde1"><!-- 개별슬라이드 -->
                                 <a href="#">
                                     <img src="./images/soccer.jpg" alt="">
                                     <p>Soccer</p>
                                 </a>
                             </li>
-                            <li class="silde"><!-- 개별슬라이드 -->
+                            <li class="silde silde2"><!-- 개별슬라이드 -->
                                 <a href="#">
                                     <img src="./images/basketball.jpg" alt="">
                                     <p>Basketball</p>
                                 </a>
                             </li>
-                            <li class="silde"><!-- 개별슬라이드 -->
+                            <li class="silde silde3"><!-- 개별슬라이드 -->
                                 <a href="#">
                                     <img src="./images/soccer.jpg" alt="">
                                     <p>Soccer</p>
                                 </a>
                             </li>
-                            <li class="silde"><!-- 개별슬라이드 -->
+                            <li class="silde silde4"><!-- 개별슬라이드 -->
                                 <a href="#">
                                     <img src="./images/basketball.jpg" alt="">
                                     <p>Basketball</p>
@@ -273,15 +273,15 @@
                     </div>
                     <a href="#" class="prev"><img src="./images/prev_w.svg" alt="이전"></a>
                     <a href="#" class="next"><img src="./images/prev_w.svg" alt="다음"></a>
-                    <div class="progress_bar"><!-- 상태바 전체 길이 -->
-                        <span></span><!-- 상태바 현재 위치 -->
+                    <div class="bar"><!-- 상태바 전체 길이 -->
+                        <span class="progress"></span><!-- 상태바 현재 위치 -->
                     </div>
                 </div>
             </div>
             <div id="bestseller_product"><!-- 내용 부모 -->
                 <div class="bestseller_product_slide_wrap"><!-- 뷰포트 -->
                     <div class="slide_container"><!-- 슬라이드 전체 묶음 -->
-                        <div class="slide"><!-- 개별 슬라이드 -->
+                        <div class="slide slide1"><!-- 개별 슬라이드 -->
                             <div class="product_bnr"><!-- bg -->
                                 <p>More <span>balance</span> to move body and mind</p>
                             </div>
@@ -291,7 +291,7 @@
                                 <a href="#" class="buy_btn">구매하기</a>
                             </div>
                         </div>
-                        <div class="slide"><!-- 개별 슬라이드 -->
+                        <div class="slide slide1"><!-- 개별 슬라이드 -->
                             <div class="product_bnr"><!-- bg -->
                                 <p>More <span>balance</span> to move body and mind</p>
                             </div>
@@ -314,24 +314,24 @@
                 <div class="news_event_wrap"><!-- 내용부모 -->
                     <div class="news_event_silde_wrap"><!-- 뷰포트 -->
                         <ul class="silde_container"><!-- 슬라이드 전체 묶음 -->
-                            <li class="slide"><!-- 개별 슬라이드, bg -->
+                            <li class="slide slide1"><!-- 개별 슬라이드, bg -->
                                 <a href="#"><p>#RUN:<br>FIND YOUR SHOES</p></a>
                             </li>
-                            <li class="slide"><!-- 개별 슬라이드, bg -->
+                            <li class="slide slide2"><!-- 개별 슬라이드, bg -->
                                 <a href="#"><p>LAUNCH<br>CALENDER</p></a>
                             </li>
-                            <li class="slide"><!-- 개별 슬라이드, bg -->
+                            <li class="slide slide3"><!-- 개별 슬라이드, bg -->
                                 <a href="#"><p>#RUN:<br>FIND YOUR SHOES</p></a>
                             </li>
-                            <li class="slide"><!-- 개별 슬라이드, bg -->
+                            <li class="slide slide4"><!-- 개별 슬라이드, bg -->
                                 <a href="#"><p>LAUNCH<br>CALENDER</p></a>
                             </li>
                         </ul>
                     </div>
                     <a href="#" class="prev"><img src="./images/prev_w.svg" alt="이전"></a>
                     <a href="#" class="next"><img src="./images/prev_w.svg" alt="다음"></a>
-                    <div class="progress_bar"><!-- 상태바 전체 길이 -->
-                        <span></span><!-- 상태바 현재 위치 -->
+                    <div class="bar"><!-- 상태바 전체 길이 -->
+                        <span class="progress"></span><!-- 상태바 현재 위치 -->
                     </div>
                 </div>
             </div>
