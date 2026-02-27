@@ -1,0 +1,156 @@
+/* 아식스 웹페이지 common.css */
+html {scroll-behavior: smooth;}/* 스크롤 애니메이션 효과 */
+body {}
+#wrap {
+    min-width: 1840px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* =========================================================== top_bnr */
+#wrap #top_bnr_wrap {
+    background-color: #E5E4F2;
+}
+#wrap #top_bnr_wrap #top_bnr_slide_wrap {
+    position: relative;
+    margin: 0 40px;
+}
+#wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container {
+}
+#wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container a {
+    display: block;
+    width: 1240px; padding: 20px 0;
+    text-align: center;
+    margin: 0 auto;
+    color: #001E63;
+    font-weight: 600; font-size: 1.13rem;
+}
+#wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container .active {}
+#wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container a:nth-child(2) {display: none;}
+#wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container .active {}
+#wrap #top_bnr_wrap #top_bnr_slide_wrap .close {
+    position: absolute;
+    width: 13px; height: 13px;
+    right: 0; top: 50%; transform: translateY(-50%);
+}
+#wrap #top_bnr_wrap #top_bnr_slide_wrap .close img {width: 100%;}
+/* ==================================================================== fab */
+#wrap #fab_chatbot_pageup {
+    position: fixed;
+    right: 0; bottom: 0;
+}
+#wrap #fab_chatbot_pageup .chatbot {}
+#wrap #fab_chatbot_pageup .chatbot img {}
+#wrap #fab_chatbot_pageup .pageup {}
+#wrap #fab_chatbot_pageup .pageup img {}
+/* =============================================================== header */
+#wrap header {
+    background-color: lime;
+    height: 60px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    /* 스크롤 시 고정 */
+    position: fixed; left: 0; top: 58px; z-index: 999; width: 100%;
+}
+#wrap header .h_left {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+#wrap header .h_left h1 {}
+#wrap header .h_left h1 a {}
+#wrap header .h_left h1 a img {}
+/* ================================================================= gnb */
+#wrap header .h_left nav {}
+#wrap header .h_left nav #gnb {
+    display: flex; flex-flow: row nowrap;
+    gap: 60px;
+}
+#wrap header .h_left nav #gnb > li {position: relative;}
+#wrap header .h_left nav #gnb > li > a {
+    position: relative;
+    background-color: yellow;
+    font-weight: 700; font-size: 0.88rem; color: #001E63;
+    line-height: 58px; display: block;
+}
+#wrap header .h_left nav #gnb > li .gnb_wrap {
+    background-color: skyblue;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 {
+    position: absolute;
+    width: 120px;
+    background-color: aqua;
+}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li {}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > a {}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > .gnb_depth3 {display: none;}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > .gnb_depth3 li {}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > .gnb_depth3 li a {}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right {display: none;}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right img {}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right p {}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right p span {}
+/* ================================================================ */
+#wrap header .h_right {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+    gap: 24px;
+}
+#wrap header .h_right #search_bar {
+    display: flex; flex-flow:  row nowrap;
+    justify-content: space-between; align-items: center;
+    background-color: yellow;
+    border: 1px solid #001E63;
+    border-radius: 16px;
+    padding: 0 10px;
+}
+#wrap header .h_right #search_bar #search_txt {}
+#wrap header .h_right #search_bar #search_btn {
+    }
+#wrap header .h_right #search_bar #search_btn img {width: 100%;}
+#wrap header .h_right .user_info {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+    gap: 8px;
+    
+}
+#wrap header .h_right .user_info .login_signup_btn {}
+#wrap header .h_right .user_info .login_signup_btn a {}
+#wrap header .h_right .user_info .customer_service_btn {}
+#wrap header .h_right .user_info .customer_service_btn a {}
+#wrap header .h_right .cart {}
+#wrap header .h_right .cart img {}
+/* ================================================================== footer */
+#wrap footer {}
+#wrap footer #service_info {}
+#wrap footer #service_info h2 {}
+#wrap footer #service_info h2 a {}
+#wrap footer #service_info h2 a img {}
+#wrap footer #service_info .customer_service_number {}
+#wrap footer #service_info p {}
+#wrap footer #service_info p em {}
+#wrap footer #service_info .compliance {}
+#wrap footer #service_info .compliance .escrow {}
+#wrap footer #service_info .compliance .escrow a {}
+#wrap footer #service_info .compliance .escrow a img {}
+#wrap footer #service_info .compliance .escrow p {}
+#wrap footer #service_info .compliance .escrow p span {}
+#wrap footer #service_info .compliance .isms {}
+#wrap footer #service_info .compliance .isms a {}
+#wrap footer #service_info .compliance .isms a img {}
+#wrap footer #service_info .compliance .isms p {}
+#wrap footer #service_info .compliance .isms p span {}
+#wrap footer #fnb {}
+#wrap footer #fnb li {}
+#wrap footer #fnb li a {}
+#wrap footer #brand_info {}
+#wrap footer #brand_info > a {}
+#wrap footer #brand_info address {}
+#wrap footer #brand_info address a {}
+#wrap footer #brand_info .sns {}
+#wrap footer #brand_info .sns a {}
+#wrap footer #brand_info .sns a img {}

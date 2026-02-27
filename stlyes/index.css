@@ -1,57 +1,5 @@
-body {}
-#wrap {}
-#wrap #top_bnr_slide_wrap {
-    background-color: yellow; width: 100%; margin: 0 auto;
-    overflow: hidden;
-}
-#wrap #top_bnr_slide_wrap .top_bnr_slide_container {
-    background-color: bisque;
-}
-#wrap #top_bnr_slide_wrap .top_bnr_slide_container a {
-    background-color: aqua;
-    display: block;
-    float: left; width: 100%; height: 52px;
-    text-align: center;
-}
-#wrap #top_bnr_slide_wrap .close {}
-#wrap #top_bnr_slide_wrap .close img {}
-#wrap #fab_chatbot_pageup {}
-#wrap #fab_chatbot_pageup .chatbot {}
-#wrap #fab_chatbot_pageup .chatbot img {}
-#wrap #fab_chatbot_pageup .pageup {}
-#wrap #fab_chatbot_pageup .pageup img {}
-#wrap header {}
-#wrap header .h_left {}
-#wrap header .h_left h1 {}
-#wrap header .h_left h1 a {}
-#wrap header .h_left h1 a img {}
-#wrap header .h_left nav {}
-#wrap header .h_left nav #gnb {}
-#wrap header .h_left nav #gnb > li {}
-#wrap header .h_left nav #gnb > li > a {}
-#wrap header .h_left nav #gnb > li .gnb_wrap {}
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 {}
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li {}
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > a {}
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > .gnb_depth3 {}
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > .gnb_depth3 li {}
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > .gnb_depth3 li a {}
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right {}
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right img {}
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right p {}
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right p span {}
-#wrap header .h_right {}
-#wrap header .h_right #search_bar {}
-#wrap header .h_right #search_bar #search_txt {}
-#wrap header .h_right #search_bar #search_btn {}
-#wrap header .h_right #search_bar #search_btn img {}
-#wrap header .h_right .user_info {}
-#wrap header .h_right .user_info .login_signup_btn {}
-#wrap header .h_right .user_info .login_signup_btn a {}
-#wrap header .h_right .user_info .customer_service_btn {}
-#wrap header .h_right .user_info .customer_service_btn a {}
-#wrap header .h_right .cart {}
-#wrap header .h_right .cart img {}
+/* 아식스 웹페이지 index.css */
+/* ============================================================= main */
 #wrap main {}
 #wrap main .hero_bnr {}
 #wrap main .hero_bnr .hero_bnr_img {}
@@ -188,32 +136,3 @@ body {}
 #wrap main #news_event .news_event_wrap .next img {}
 #wrap main #news_event .news_event_wrap .progress_bar {}
 #wrap main #news_event .news_event_wrap .progress_bar .progress {}
-#wrap footer {}
-#wrap footer #service_info {}
-#wrap footer #service_info h2 {}
-#wrap footer #service_info h2 a {}
-#wrap footer #service_info h2 a img {}
-#wrap footer #service_info .customer_service_number {}
-#wrap footer #service_info p {}
-#wrap footer #service_info p em {}
-#wrap footer #service_info .compliance {}
-#wrap footer #service_info .compliance .escrow {}
-#wrap footer #service_info .compliance .escrow a {}
-#wrap footer #service_info .compliance .escrow a img {}
-#wrap footer #service_info .compliance .escrow p {}
-#wrap footer #service_info .compliance .escrow p span {}
-#wrap footer #service_info .compliance .isms {}
-#wrap footer #service_info .compliance .isms a {}
-#wrap footer #service_info .compliance .isms a img {}
-#wrap footer #service_info .compliance .isms p {}
-#wrap footer #service_info .compliance .isms p span {}
-#wrap footer #fnb {}
-#wrap footer #fnb li {}
-#wrap footer #fnb li a {}
-#wrap footer #brand_info {}
-#wrap footer #brand_info > a {}
-#wrap footer #brand_info address {}
-#wrap footer #brand_info address a {}
-#wrap footer #brand_info .sns {}
-#wrap footer #brand_info .sns a {}
-#wrap footer #brand_info .sns a img {}
