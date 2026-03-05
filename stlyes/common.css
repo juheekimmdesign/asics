@@ -1,12 +1,7 @@
 /* 아식스 웹페이지 common.css */
-html {scroll-behavior: smooth;}/* 스크롤 애니메이션 효과 */
-body {}
-#wrap {
-    min-width: 1840px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-/* =========================================================== top_bnr */
+body {min-width: 1920px; overflow-x: hidden;}
+#wrap {}
+/* =========================================================== 탑배너 */
 #wrap #top_bnr_wrap {
     background-color: #E5E4F2;
 }
@@ -14,8 +9,7 @@ body {}
     position: relative;
     margin: 0 40px;
 }
-#wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container {
-}
+#wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container {}
 #wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container a {
     display: block;
     width: 1240px; padding: 20px 0;
@@ -25,15 +19,15 @@ body {}
     font-weight: 600; font-size: 1.13rem;
 }
 #wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container .active {}
-#wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container a:nth-child(2) {display: none;}
+#wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container a:nth-child(2) {display: none;}/* 탑배너 광고 가려둠 */
 #wrap #top_bnr_wrap #top_bnr_slide_wrap .top_bnr_slide_container .active {}
 #wrap #top_bnr_wrap #top_bnr_slide_wrap .close {
     position: absolute;
     width: 13px; height: 13px;
     right: 0; top: 50%; transform: translateY(-50%);
 }
-#wrap #top_bnr_wrap #top_bnr_slide_wrap .close img {width: 100%;}
-/* ==================================================================== fab */
+#wrap #top_bnr_wrap #top_bnr_slide_wrap .close img {width: 14px;}
+/* ==================================================================== 챗봇, 위로가기 fab */
 #wrap #fab_chatbot_pageup {
     position: fixed;
     right: 0; bottom: 0;
@@ -44,14 +38,15 @@ body {}
 #wrap #fab_chatbot_pageup .pageup img {}
 /* =============================================================== header */
 #wrap header {
-    background-color: lime;
-    height: 60px;
+    height: 60px; width: 1920px;
     display: flex; flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
     /* 스크롤 시 고정 */
-    position: fixed; left: 0; top: 58px; z-index: 999; width: 100%;
+    position: fixed; left: 0; top: 58px; z-index: 999;
+    background-color: #fff;
+    border-bottom: 1px solid #E5E4F2;
 }
 #wrap header .h_left {
     display: flex; flex-flow: row nowrap;
@@ -66,48 +61,54 @@ body {}
 #wrap header .h_left nav {}
 #wrap header .h_left nav #gnb {
     display: flex; flex-flow: row nowrap;
+    justify-content: center; align-items: center;
     gap: 60px;
 }
 #wrap header .h_left nav #gnb > li {}
 #wrap header .h_left nav #gnb > li > a {
-    background-color: yellow;
     font-weight: 700; color: #001E63;
-    line-height: 58px; display: block;
+    line-height: 58px; display: block; font-size: 0.94rem;
 }
 #wrap header .h_left nav #gnb > li .gnb_wrap {
-    background-color: skyblue;
+    background-color: #fff;
     display: flex; flex-flow: row nowrap;
-    justify-content: center; align-items: flex-start;
+    justify-content: space-between; align-items: flex-start;
     position: absolute;
     left: 0; top: 58px;
     width: 100%; height: 430px;
-    border-bottom: 1px solid #ddd;
     padding: 0 210px;
+    display: none;
 }
+#wrap header .h_left nav #gnb > li:hover .gnb_wrap {display: block;}
 #wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 {
-    background-color: salmon;
     width: 100%;
     display: flex; flex-flow: row nowrap;
-    justify-content: flex-start; align-items: flex-start; gap: 40px;
+    justify-content: flex-start; align-items: flex-start; gap: 60px;
 }
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li:first-child {border-right: 1px solid #ddd;}
 #wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li {
-    background-color: bisque;
-    padding: 0 40px 0 0;
+
+    position: relative;
+}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 li:first-child ul::after {
+    content: ''; display: block;
+    top: 20px; right: 0;
+    width: 1px; height: 380px;
+    background-color: #E5E4F2;
+    position: absolute;
 }
 #wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > a {
-    display: block; line-height: 40px;
+    display: block; line-height: 60px;
     font-weight: 700; font-size: 0.88rem; color: #001E63;
+    width: 120px;
 }
 #wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > .gnb_depth3 {
-    background-color: yellow;
 }
 #wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > .gnb_depth3 li {}
 #wrap header .h_left nav #gnb > li .gnb_wrap .gnb_depth2 > li > .gnb_depth3 li a {
-    display: block; line-height: 40px;
-    font-weight: 500; font-size: 0.88rem; color: #001E63
+    display: block; line-height: 36px;
+    font-weight: 500; font-size: 0.88rem; color: #001E63;
 }
-#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right {}
+#wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right {padding-top: 20px;}
 #wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right img {}
 #wrap header .h_left nav #gnb > li .gnb_wrap .gnb_bnr_right p {
     font-weight: 600; font-size: 0.88rem; color: #001E63;}
@@ -125,27 +126,39 @@ body {}
 #wrap header .h_right #search_bar {
     display: flex; flex-flow:  row nowrap;
     justify-content: space-between; align-items: center;
-    background-color: yellow;
     border: 1px solid #001E63;
     border-radius: 16px;
-    padding: 0 10px;
+    height: 32px; width: 240px;
+    padding: 0 16px;
 }
-#wrap header .h_right #search_bar #search_txt {}
-#wrap header .h_right #search_bar #search_btn {
-    }
+#wrap header .h_right #search_bar #search_txt {
+    font-size: 0.75rem;
+    
+}
+#wrap header .h_right #search_bar #search_btn {width: 20px;}
 #wrap header .h_right #search_bar #search_btn img {width: 100%;}
 #wrap header .h_right .user_info {
     display: flex; flex-flow: row nowrap;
     justify-content: space-between; align-items: center;
-    gap: 8px;
-    
+    gap: 16px; 
 }
-#wrap header .h_right .user_info .login_signup_btn {}
+#wrap header .h_right .user_info li {}
+#wrap header .h_right .user_info li a{font-size: 0.75rem; color: #001E63;}
+#wrap header .h_right .user_info .login_signup_btn {position: relative;}
+#wrap header .h_right .user_info .login_signup_btn::after {
+    content: ''; display: block;
+    width: 1px; height: 10px;
+    background-color: #aaa;
+    top: 4px; right: -8px;
+    position: absolute;
+}
 #wrap header .h_right .user_info .login_signup_btn a {}
 #wrap header .h_right .user_info .customer_service_btn {}
 #wrap header .h_right .user_info .customer_service_btn a {}
 #wrap header .h_right .cart {}
 #wrap header .h_right .cart img {}
+/* ====================================================================공통 */
+#wrap main .contents_container {}
 /* ================================================================== footer */
 #wrap footer {}
 #wrap footer #service_info {}

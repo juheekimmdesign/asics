@@ -1,39 +1,79 @@
 /* 아식스 웹페이지 index.css */
-/* ============================================================= main */
+/* ============================================================= main 공통 */
 #wrap main {}
+#wrap main .container {margin-bottom: 40px;}
+#wrap main .container a {display: inline-block; margin:0 0 20px;}
+#wrap main .container a img {}
+#wrap main .container .contents_text {text-align: center;}
+#wrap main .container .contents_text > * {margin-bottom: 20px;}
+#wrap main .container .contents_text h1 {
+    margin: 0 0 16px;
+    font-size: 1.75rem; font-weight: 700;
+}
+#wrap main .container .content_text p {
+    font-weight: 700;
+    margin: 0 0 24px;
+}
+#wrap main .container .contents_text .buy_btn {
+    display: inline-block;
+    width: 162px; line-height: 40px; border-radius: 20px; 
+    color: #fff; background-color: #001E63;
+    font-weight: 700;
+}
+/* ===================================================================================== 1. hero bnr */
 #wrap main .hero_bnr {}
 #wrap main .hero_bnr .hero_bnr_img {}
-#wrap main .hero_bnr .hero_bnr_img img {}
+#wrap main .hero_bnr .hero_bnr_img img {width: 1920px;}
 #wrap main .hero_bnr .hero_bnr_txt {}
 #wrap main .hero_bnr .hero_bnr_txt h1 {}
-#wrap main .hero_bnr .hero_bnr_txt h1 p {}
-#wrap main .hero_bnr .hero_bnr_txt h1 .buy_btn {}
-#wrap main #special_product {}
-#wrap main #special_product .special_product_slide_wrap {}
-#wrap main #special_product .special_product_slide_wrap .slide_container {}
+#wrap main .hero_bnr .hero_bnr_txt p {}
+#wrap main .hero_bnr .hero_bnr_txt .buy_btn {}
+/* ================================================================================= 2. special product*/
+#wrap main #special_product {min-width: 1920px;}
+#wrap main #special_product .special_product_slide_wrap {overflow: hidden;}
+#wrap main #special_product .special_product_slide_wrap .slide_container {
+    width: max-content;
+    display: flex; flex-flow: row nowrap;
+}
 #wrap main #special_product .special_product_slide_wrap .slide_container .slide {}
 #wrap main #special_product .special_product_slide_wrap .slide_container .slide1 {}
 #wrap main #special_product .special_product_slide_wrap .slide_container .slide2 {}
 #wrap main #special_product .special_product_slide_wrap .slide_container .slide > a {}
-#wrap main #special_product .special_product_slide_wrap .slide_container .slide > a img {}
-#wrap main #special_product .special_product_slide_wrap .slide_container .slide .slide_txt {}
-#wrap main #special_product .special_product_slide_wrap .slide_container .slide .slide_txt h1 {}
-#wrap main #special_product .special_product_slide_wrap .slide_container .slide .slide_txt h1 span {}
-#wrap main #special_product .special_product_slide_wrap .slide_container .slide .slide_txt p {}
-#wrap main #special_product .special_product_slide_wrap .slide_container .slide .slide_txt .buy_btn {}
+#wrap main #special_product .special_product_slide_wrap .slide_container .slide > a img {width: 1920px;}
+#wrap main #special_product .special_product_slide_wrap .slide_container .slide .slide_txt {text-align: center;}
+#wrap main #special_product .special_product_slide_wrap .slide_container .slide .slide_txt > * {margin: 0 0 16px;}
+#wrap main #special_product .special_product_slide_wrap .slide_container .slide .slide_txt h1 {
+    margin: 0 0 16px;
+    font-size: 1.75rem; font-weight: 700;
+}
+#wrap main #special_product .special_product_slide_wrap .slide_container .slide .slide_txt h1 span {
+    font-size: 1rem; font-weight: 800;
+    position: relative; top:-9px; left: 0;
+}
+#wrap main #special_product .special_product_slide_wrap .slide_container .slide .slide_txt p {
+    font-weight: 700;
+    margin: 0 0 24px;
+}
+#wrap main #special_product .special_product_slide_wrap .slide_container .slide .slide_txt .buy_btn {
+    display: inline-block;
+    width: 162px; line-height: 40px; border-radius: 20px; 
+    color: #fff; background-color: #001E63;
+    font-weight: 700;
+}
 #wrap main #special_product .special_product_slide_wrap .prev {}
 #wrap main #special_product .special_product_slide_wrap .prev img {}
 #wrap main #special_product .special_product_slide_wrap .next {}
 #wrap main #special_product .special_product_slide_wrap .next img {}
 #wrap main #special_product .special_product_slide_wrap .progress_bar {}
 #wrap main #special_product .special_product_slide_wrap .progress_bar .progress {}
+/* ====================================================================================== 3. new product*/
 #wrap main #new_product {}
 #wrap main #new_product h1 {}
 #wrap main #new_product .new_product_wrap {}
 #wrap main #new_product .new_product_wrap .new_product_slide_wrap {}
 #wrap main #new_product .new_product_wrap .new_product_slide_wrap .slide_container {}
-#wrap main #new_product .new_product_wrap .new_product_slide_wrap .slide_container .silde {}
-#wrap main #new_product .new_product_wrap .new_product_slide_wrap .slide_container .silde img {}
+#wrap main #new_product .new_product_wrap .new_product_slide_wrap .slide_container .silde {width: 1840px;}
+#wrap main #new_product .new_product_wrap .new_product_slide_wrap .slide_container .silde img {width: 100%;}
 #wrap main #new_product .new_product_wrap .new_product_slide_wrap .slide_container .silde1 {}
 #wrap main #new_product .new_product_wrap .new_product_slide_wrap .slide_container .silde2 {}
 #wrap main #new_product .new_product_wrap .new_product_slide_wrap .prev {}
@@ -50,11 +90,13 @@
 #wrap main #new_product .new_product_wrap #new_product_items .new_item a .price {}
 #wrap main #new_product .new_product_wrap #new_product_items .new_item a .badge {}
 #wrap main #new_product .new_product_wrap #new_product_items .new_item a .badge .new {}
+/* =================================================================================== 4. add bnr */
 #wrap main .add_bnr {}
 #wrap main .add_bnr .add_bnr_txt {}
 #wrap main .add_bnr .add_bnr_txt h1 {}
 #wrap main .add_bnr .add_bnr_txt p {}
 #wrap main .add_bnr .add_bnr_txt .shortcut {}
+/* ===================================================================================  5. recommend product*/
 #wrap main #recommend_product {}
 #wrap main #recommend_product h1 {}
 #wrap main #recommend_product h1 span {}
@@ -71,14 +113,19 @@
 #wrap main #recommend_product .recommend_product_wrap .recommend_product_container .recomen_item a .price {}
 #wrap main #recommend_product .recommend_product_wrap .recommend_product_container .recomen_item a .badge {}
 #wrap main #recommend_product .recommend_product_wrap .recommend_product_container .recomen_item a .badge .new {}
+/* ============================================================================================== 6. popular product  */
 #wrap main #popular_product {}
 #wrap main #popular_product .popular_product_video {}
 #wrap main #popular_product .popular_product_video iframe {}
 #wrap main #popular_product .popular_product_txt {}
 #wrap main #popular_product .popular_product_txt h1 {}
-#wrap main #popular_product .popular_product_txt h1 span {}
+#wrap main #popular_product .popular_product_txt h1 span {
+    font-size: 1rem; font-weight: 800;
+    position: relative; top:-9px; left: 0;
+}
 #wrap main #popular_product .popular_product_txt p {}
 #wrap main #popular_product .popular_product_txt .buy_btn {}
+/* ============================================================================================== 7. sports more  */
 #wrap main #sports_more {}
 #wrap main #sports_more h1 {}
 #wrap main #sports_more .sports_more_slide_wrap {}
@@ -98,6 +145,7 @@
 #wrap main #sports_more .sports_more_slide_wrap .next img {}
 #wrap main #sports_more .sports_more_slide_wrap .progress_bar {}
 #wrap main #sports_more .sports_more_slide_wrap .progress_bar .progress {}
+/* ============================================================================================== 8. bestseller product  */
 #wrap main #bestseller_product {}
 #wrap main #bestseller_product .bestseller_product_slide_wrap {}
 #wrap main #bestseller_product .bestseller_product_slide_wrap .slide_container {}
@@ -118,6 +166,7 @@
 #wrap main #bestseller_product .next img {}
 #wrap main #bestseller_product .progress_bar {}
 #wrap main #bestseller_product .progress_bar .progress {}
+/* ============================================================================================== 9. news event */
 #wrap main #news_event {}
 #wrap main #news_event h1 {}
 #wrap main #news_event .news_event_wrap  {}

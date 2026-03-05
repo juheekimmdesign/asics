@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>아식스 공식 온라인스토어</title>
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./stlyes/reset.css">
     <link rel="stylesheet" href="./stlyes/common.css">
@@ -32,7 +32,8 @@
                 <h1><a href="./index.html"><img src="./images/logo.png" alt="asics"></a></h1>
                 <nav>
                     <ul id="gnb">
-                        <li><a href="#">Men</a>
+                        <li>
+                            <a href="#">Men</a>
                             <div class="gnb_wrap">
                                 <ul class="gnb_depth2">
                                     <li>
@@ -88,11 +89,13 @@
                                             <li><a href="#">스포츠스타일</a></li>
                                         </ul>
                                     </li>
+                                    <li>
+                                        <a href="#" class="gnb_bnr_right">
+                                            <img src="./images/gel_katano_gnb_bnr.jpg" alt="">
+                                            <p>GEL-NOMBUS<span>TM</span>28</p>
+                                        </a>
+                                    </li>
                                 </ul>
-                                <a href="#" class="gnb_bnr_right">
-                                    <img src="./images/gel_katano_gnb_bnr.jpg" alt="">
-                                    <p>GEL-NOMBUS<span>TM</span>28</p>
-                                </a>
                             </div>
                         </li>
                         <li><a href="#">Women</a></li>
@@ -115,15 +118,15 @@
             </div><!-- e:h_right -->
         </header><!-- e:header -->
         <main>
-            <div class="hero_bnr">
+            <div class="hero_bnr container">
                 <a href="#" class="hero_bnr_img"><img src="./images/gel_nyc_hero_bnr.jpg" alt=""></a>
-                <div class="hero_bnr_txt">
+                <div class="hero_bnr_txt contents_text">
                     <h1>GEL-NYC</h1>
                     <p>2000년대 헤리티지 러닝화를 재해석한 어반 라이프스타일</p>
                     <a href="#" class="buy_btn">구매하기</a>
                 </div>
             </div>
-            <div id="special_product">
+            <div id="special_product" class="contents_container">
                 <div class="special_product_slide_wrap"><!-- 뷰포트 -->
                     <div class="slide_container"><!-- 슬라이드 전체묶음 -->
                         <div class="slide slide1"><!-- 개별 슬라이드 -->
@@ -150,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <div id="new_product">
+            <div id="new_product" class="contents_container">
                 <h1>NEW ARRIVALS</h1>
                 <div class="new_product_wrap"><!-- 내용 부모 -->
                     <div class="new_product_slide_wrap"><!-- 슬라이드 뷰포트 -->
@@ -234,12 +237,12 @@
                     </ul>
                 </div>
             </div>
-            <div id="popular_product">
+            <div id="popular_product" class="container">
                 <div class="popular_product_video">
                     <iframe width="1257" height="707" src="https://www.youtube.com/embed/0hY9b6cGJxA?autoplay=1&mute=1&loop=1&playlist=0hY9b6cGJxA&control=0" title="ASICS Tennis | Move your body, move your mind" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <div class="popular_product_txt">
-                    <h1>GEL-NIMBUS<span>TM28</span></h1>
+                <div class="popular_product_txt contents_text">
+                    <h1>GEL-NIMBUS<span>TM</span>28</h1>
                     <p>구름처럼 부드러운 쿠셔닝으로 완성된 젤 님버스 28</p>
                     <a href="#" class="buy_btn">구매하기</a>
                 </div>
