@@ -1,5 +1,6 @@
 /* 아식스 웹페이지 common.css */
-body {min-width: 1920px; overflow-x: hidden;}
+body {}
+body > * {min-width: 1800px;}
 #wrap {}
 /* =========================================================== 탑배너 */
 #wrap #top_bnr_wrap {
@@ -38,7 +39,7 @@ body {min-width: 1920px; overflow-x: hidden;}
 #wrap #fab_chatbot_pageup .pageup img {}
 /* =============================================================== header */
 #wrap header {
-    height: 60px; width: 1920px;
+    height: 60px; width: 100%;
     display: flex; flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
@@ -159,6 +160,7 @@ body {min-width: 1920px; overflow-x: hidden;}
 #wrap header .h_right .cart img {}
 /* ====================================================================공통 */
 #wrap main .contents_container {}
+#wrap main .contnets_bg {min-width: 1800px;}
 /* ================================================================== footer */
 #wrap footer {}
 #wrap footer #service_info {}
