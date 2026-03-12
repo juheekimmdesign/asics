@@ -48,6 +48,7 @@ body > * {min-width: 1800px;}
     position: fixed; left: 0; top: 58px; z-index: 999;
     background-color: #fff;
     border-bottom: 1px solid #E5E4F2;
+    position: sticky; left: 0; top: 0; width: 100%; z-index: 100;
 }
 #wrap header .h_left {
     display: flex; flex-flow: row nowrap;
