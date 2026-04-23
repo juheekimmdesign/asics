@@ -1,3 +1,6 @@
+**"This is a portfolio project for educational purposes."**
+* 이것은 교육 목적의 포트폴리오 프로젝트입니다.
+
 # asics
 * 1주전 과제이어서 → HTML 작성하고 gitHub업로드하기
 ## 26/02/04 
